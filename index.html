@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TAD Global</title>
+  <link rel="stylesheet" href="assets/css/bootstrap-css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/fancybox/fancybox.min.css">
+  <link rel="stylesheet" href="assets/css/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+  <div class="site_wrap">
+    <header>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="left">
+              <div class="logo_wrapper">
+                <img src="assets/images/tad-logo.svg" alt="" srcset="">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 d-flex align-items-center justify-content-center">
+            <div class="middle">
+              <ul>
+                <li><a href="" class="active">Branding</a></li>
+                <li><a href="">Digital</a></li>
+                <li><a href="">Media</a></li>
+                <li><a href="">Production</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 d-flex align-items-center justify-content-end">
+            <div class="right">
+              <div class="social-icons">
+                <ul>
+                  <li>
+                    <a href="">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#f27221"
+                        class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path
+                          d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#f27221" class="bi bi-tiktok"
+                        viewBox="0 0 16 16">
+                        <path
+                          d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z" />
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#f27221"
+                        class="bi bi-twitter-x" viewBox="0 0 16 16">
+                        <path
+                          d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z" />
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#f27221"
+                        class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path
+                          d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+
+      <section class="sec_1">
+        <div class="section_wrapper">
+          <div class="container">
+            <div class="content_wrapper">
+              <div class="reveal_text">
+                <h2 class="one">Our</h2>
+                <h2 class="two ps-lg-5">move</h2>
+                <h2 class="three">your <span class="text-uppercase">tad <br>global </span></h2>
+                <h2 class="four"><span>branding</span>victory</h2>
+              </div>
+              <div class="diagonal_strip">
+                <img src="assets/images/strip_1.svg" alt="" srcset="">
+                <div class="strip_content">
+                  <div class="content_itself">
+                    <div class="text">
+                      <p>100+<br>CLIENTS</p>
+                    </div>
+                    <img src="assets/images/solider.svg" alt="" srcset="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <div class="for_strip"></div>
+
+      <section class="sec_2" id="intro">
+        <div class="section_wrapper">
+          <div class="container">
+            <div class="content_wrapper">
+              <div class="floating_strip">
+                <img src="assets/images/strip_2.svg" alt="" srcset="">
+                <div class="strip_content">
+                  <div class="content_itself">
+                    <div class="vertical_reveal fromTop overflow-visible large">
+                      <img class="" src="assets/images/horse.svg" alt="" srcset="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-3 d-flex align-items-center">
+                    <div class="left">
+                      <div class="vertical_reveal large">
+                          <h2 class="text-uppercase">about us</h2>
+                          <p>TAD Global transcends the ordinary; we're the maestros of branding brilliance! With 25 years of wisdom gathered across categories, media, mediums: we pride in our hyper local capabilities and rightfully so by supporting brands triumph in our birthplace, Hyderabad while making a mark nationally and internationally.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-9">
+                    <div class="right">
+                      <div class="text_wrapper">
+                        <h2>APPROACHING</h2>
+                        <h2 class="fromRight">BRANDS WITH</h2>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4">
+                          <div class="vertical_reveal">
+                            <img src="assets/images/chess.png" alt="" srcset="">
+                          </div>
+                        </div>
+                        <div class="col-lg-8">
+                          <div class="text_wrapper">
+                            <h2>EASE &</h2>
+                            <h2 class="fromRight">GRACE</h2>
+                          </div>
+                          <!-- <h2><br> </h2> -->
+                          <div class="vertical_reveal">
+                            <p>Thriving amidst an ever-dynamic business environment and the influential tide of technology we are today a 360 degree integrated marketing solutions agency. We guide brands through the complex board of consumer perception, and secure the checkmate that ensures lasting success.</p>                            
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="shape_section">
+        <div class="vertical_reveal">
+          <div class="container d-flex justify-content-end">
+            <div class="image_wrapper">
+              <img src="assets/images/strip_3.svg" alt="" srcset="">
+              <div class="strip_content">
+                <div class="content_itself">
+                  <div class="text">
+                    <p>100+<br>CLIENTS</p>
+                  </div>
+                  <img src="assets/images/horse.svg" alt="" srcset="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="sec_3" id="intro">
+        <div class="section_wrapper">
+          <div class="container-fluid exception">
+            <div class="content_wrapper">
+              <div class="row justify-content-end">
+                <div class="col-lg-10 px-0">
+                  <div class="right">
+                    <div class="text_wrapper">
+                      <h2 class="pt-1 m-0">OUR </h2>
+                      <h2 class="pt-1 fromRight">Clientele</h2>
+                    </div>
+                    <div class="vertical_reveal">      
+                      <div class="space_left pt-2">
+                        <h4>We play to win, employing tactics that outmanoeuvre rivals.</h4>                
+                        <p>Chess teaches us that every piece has its unique strength, and the same applies to your brand. Whether it's a pawn or a queen, we leverage each element to maximize its impact, opening up a world of infinite possibilities. Your success is not just a goal; it's the checkmate we relentlessly pursue. Whether you are a startup or a growing brand , a challenger or a leader already with a legacy we know exactly what moves to make Check and Mate: Your Brand's Triumph Awaits:</p>
+                      </div>
+                    </div>
+                    <div class="vertical_reveal">
+                      <div class="carousel_wrapper">
+                        <div class="left_arrow">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="#b1b1b1"
+                            class="bi bi-arrow-left" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                              d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                          </svg>
+                        </div>
+                        <div class="swiper mySwiper">
+                          <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                              <div class="image_wrapper">
+                                <img src="assets/images/carousel-icons/icon-1.png" alt="" srcset=""
+                                  style="max-width: 45px;">
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="image_wrapper">
+                                <img src="assets/images/carousel-icons/icon-2.png" alt="" srcset="">
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="image_wrapper">
+                                <img src="assets/images/carousel-icons/icon-3.png" alt="" srcset="">
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="image_wrapper">
+                                <img src="assets/images/carousel-icons/icon-4.png" alt="" srcset="">
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="image_wrapper">
+                                <img src="assets/images/carousel-icons/icon-5.png" alt="" srcset="">
+                              </div>
+                            </div>
+                          </div>
+                          <!-- <div class="swiper-button-next"></div> -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec_4">
+        <div class="section_wrapper">
+          <div class="container">
+            <div class="content_wrapper">
+              <div class="floating_block">
+                <div class="left2">
+                  <img src="assets/images/strip_4.svg" alt="">
+                  <div class="strip_content">
+                    <div class="content_itself">
+                      <img src="assets/images/elephant.svg" alt="" srcset="">
+                    </div>
+                  </div>
+                </div>
+                <div class="right2">
+                  <div class="text">
+                    <div class="text_wrapper">
+                      <p class="m-0">HOW</p>
+                      <p class="fromRight">WE PLAY</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="text_wrapper">
+                <h2>Hear it</h2>
+                <h2 class="fromRight">YourSELF</h2>
+              </div>
+              <div class="row justify-content-end pt-5">
+                <div class="col-lg-10">
+                  <div class="row">
+                    <div class="col-lg-4 d-flex align-items-center">
+                      <div class="left">
+                        <div class="text_wrapper">
+                          <h2>Lorem</h2>
+                          <h2 class="fromRight">Ipsum Dolor</h2>
+                        </div>
+                        <div class="vertical_reveal large">
+                          <p class="para">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta amet, temporibus minus error,
+                            earum velit harum ex magni reprehenderit iste itaque, qui laborum. Tenetur qui, doloremque hic
+                            atque soluta temporibus.
+                          </p>
+                          <a href="#" class="cta">View Case Study <span><svg xmlns="http://www.w3.org/2000/svg" width="26"
+                                height="26" fill="#f27221" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                  d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                              </svg></span></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-8">
+                      <div class="right">
+                        <div class="vertical_reveal">
+                          <img src="assets/images/bulb.png" alt="" srcset="">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="lower">
+          <div class="container">
+            <div class="row justify-content-end">
+              <div class="col-lg-9">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="image">
+                      <div class="vertical_reveal">
+                        <img src="assets/images/target.png" alt="">
+                      </div>                      
+                      <div class="diagonal_strip">
+                        <img src="assets/images/strip_1.svg" alt="" srcset="">
+                        <div class="strip_content">
+                          <div class="content_itself">
+                            <img src="assets/images/elephant.svg" alt="" srcset="">
+                          </div>
+                        </div>
+                      </div>                      
+                    </div>
+                  </div>
+                  <div class="col-lg-6 d-flex align-items-end">
+                    <div class="text_wrapper">
+                      <h2>Lorem<br>Ipsum Dolor</h2>
+                      <p class="para">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta amet, temporibus minus error,
+                        earum velit harum ex magni reprehenderit iste itaque, qui laborum. Tenetur qui, doloremque hic
+                        atque soluta temporibus.
+                      </p>
+                      <a href="#" class="cta">View Case Study <span><svg xmlns="http://www.w3.org/2000/svg" width="26"
+                            height="26" fill="#f27221" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                              d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                          </svg></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec_5">
+        <div class="section_wrapper">
+          <div class="container">
+            <div class="content_wrapper">
+              <div class="row justify-content-end">
+                <div class="col-lg-10">
+                  <div class="row">
+                    <div class="col-lg-5">
+                      <div class="left">
+                        <div class="text_wrapper">
+                          <h2 class="m-0">Lorem</h2>
+                          <h2 class="fromRight">Ipsum Dolor</h2>
+                        </div>
+                        <div class="vertical_reveal large">
+                          <p class="para mt-3">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta amet, temporibus minus error,
+                            earum velit harum ex magni reprehenderit iste itaque, qui laborum. Tenetur qui, doloremque hic
+                            atque soluta temporibus.
+                          </p>
+                          <a href="#" class="cta">View Case Study <span><svg xmlns="http://www.w3.org/2000/svg" width="26"
+                                height="26" fill="#f27221" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                  d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                              </svg></span></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-7">
+                      <div class="right">
+                        <div class="image_wrapper">
+                          <div class="vertical_reveal">
+                            <img src="assets/images/conversation.png" alt="">
+                          </div>
+                          <div class="vertical_strip">
+                            <img src="assets/images/strip_5.svg" alt="" srcset="">
+                            <div class="strip_content">
+                              <div class="content_itself">
+                                <img src="assets/images/elephant.svg" alt="" srcset="">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="lower">
+          <div class="container">
+            <div class="row justify-content-end">
+              <div class="col-lg-9">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="image">
+                      <div class="vertical_reveal">
+                        <img src="assets/images/conference.png" alt="">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 d-flex align-items-end">
+                    <div class="text_wrapper">
+                      <h2>Lorem<br>Ipsum Dolor</h2>
+                      <p class="para">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta amet, temporibus minus error,
+                        earum velit harum ex magni reprehenderit iste itaque, qui laborum. Tenetur qui, doloremque hic
+                        atque soluta temporibus.
+                      </p>
+                      <a href="#" class="cta">View Case Study <span><svg xmlns="http://www.w3.org/2000/svg" width="26"
+                            height="26" fill="#f27221" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                              d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                          </svg></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec_6">
+        <div class="section_wrapper">
+          <div class="container">
+            <div class="content_wrapper">
+              <div class="row justify-content-end">
+                <div class="col-lg-10">
+                  <div class="">
+                    <div class="text_wrapper">
+                      <h2 class="heading">Sneak</h2>
+                      <h2 class="heading fromRight">A PEEK</h2>
+                    </div>
+                    <div class="dual_scroll_container">
+                      <div class="row">
+                        <div class="col-lg-6">
+                          <div class="left_carousel">
+                            <div class="swiper v_one">
+                              <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                  <div class="sneak_wrapper"><img src="assets/images/dual-carousel/left_1.png" alt="" srcset="">
+                                    <p><i>Production</i></p>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="sneak_wrapper"><img src="assets/images/dual-carousel/left_1.png" alt="" srcset=""
+                                      style="filter: sepia(1);">
+                                    <p><i>Production</i></p>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="sneak_wrapper"><img src="assets/images/dual-carousel/left_1.png" alt="" srcset="">
+                                    <p><i>Production</i></p>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="sneak_wrapper"><img src="assets/images/dual-carousel/left_1.png" alt="" srcset=""
+                                      style="filter: sepia(1);">
+                                    <p><i>Production</i></p>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="sneak_wrapper"><img src="assets/images/dual-carousel/left_1.png" alt="" srcset="">
+                                    <p><i>Production</i></p>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="sneak_wrapper"><img src="assets/images/dual-carousel/left_1.png" alt="" srcset=""
+                                      style="filter: sepia(1);">
+                                    <p><i>Production</i></p>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="sneak_wrapper"><img src="assets/images/dual-carousel/left_1.png" alt="" srcset="">
+                                    <p><i>Production</i></p>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="sneak_wrapper"><img src="assets/images/dual-carousel/left_1.png" alt="" srcset=""
+                                      style="filter: sepia(1);">
+                                    <p><i>Production</i></p>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="sneak_wrapper"><img src="assets/images/dual-carousel/left_1.png" alt="" srcset="">
+                                    <p><i>Production</i></p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="swiper-pagination controller"></div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-6">
+                          <div class="right_carousel">
+                            <div class="swiper v_two">
+                              <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                  <div class="sneak_wrapper"><img src="assets/images/dual-carousel/right_1.png" alt=""
+                                      srcset="">
+                                    <p><i>Production</i></p>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="sneak_wrapper"><img src="assets/images/dual-carousel/right_2.png" alt=""
+                                      srcset="">
+                                    <p><i>Production</i></p>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="sneak_wrapper"><img src="assets/images/dual-carousel/right_1.png" alt=""
+                                      srcset="">
+                                    <p><i>Production</i></p>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="sneak_wrapper"><img src="assets/images/dual-carousel/right_2.png" alt=""
+                                      srcset="">
+                                    <p><i>Production</i></p>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="sneak_wrapper"><img src="assets/images/dual-carousel/right_1.png" alt=""
+                                      srcset="">
+                                    <p><i>Production</i></p>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="sneak_wrapper"><img src="assets/images/dual-carousel/right_2.png" alt=""
+                                      srcset="">
+                                    <p><i>Production</i></p>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="sneak_wrapper"><img src="assets/images/dual-carousel/right_1.png" alt=""
+                                      srcset="">
+                                    <p><i>Production</i></p>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="sneak_wrapper"><img src="assets/images/dual-carousel/right_2.png" alt=""
+                                      srcset="">
+                                    <p><i>Production</i></p>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="sneak_wrapper"><img src="assets/images/dual-carousel/right_1.png" alt=""
+                                      srcset="">
+                                    <p><i>Production</i></p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="swiper-pagination controller"></div>
+                            </div>
+                          </div>
+                          <div class="dual_navigation">
+                            <div class="dual_prev">PREVIOUS</div>
+                            <div class="progress_bar"><span>
+                                <<div class="swiper-pagination-custom">
+                            </div>></span>
+                          </div>
+                          <div class="dual_next">NEXT</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- </div> -->
+      </section>
+
+      <section class="sec_7">
+        <div class="section_wrapper">
+          <div class="container">
+            <div class="content_wrapper">
+              <div class="sticky_strip">
+                <img src="assets/images/strip_6.svg" alt="" srcset="">
+                <div class="strip_content">
+                  <div class="content_itself">
+                    <img src="assets/images/elephant.svg" alt="" srcset="">
+                  </div>
+                </div>
+              </div>
+              <div class="own_container">
+                <div class="left">
+                  <div class="image_wrapper">
+                    <div class="vertical_reveal">
+                      <img src="assets/images/fishbowl.jpg" alt="" srcset="">
+                    </div>
+                  </div>
+                </div>
+                <div class="center_text">
+                  <div class="text_wrapper">
+                    <h2 class="m-0">OUR</h2>
+                    <h2 class="fromRight">JOURNEY</h2>                  
+                  </div>
+                </div>
+                <div class="right">
+                  <div class="vertical_reveal large">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi vero ullam necessitatibus voluptatem ea
+                      eaque ratione adipisci recusandae officiis. Nihil distinctio amet quasi? Beatae id consectetur aliquid
+                      consequuntur incidunt nobis.</p>
+                      <a href="#">Go <span><img src="assets/images/arrow.svg" alt="" srcset=""></span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <section class="sec_8">
+        <div class="section_wrapper">
+          <div class="container">
+            <div class="content_wrapper">
+              <div class="row justify-content-center">
+                <div class="col-lg-9">
+                  <div class="heading_wrapper">
+                    <div class="text_wrapper">
+                      <h2 class="pt-1 ">OUR</h2>
+                      <h2 class="pt-1 fromRight">SERVICES</h2>
+                    </div>
+                    <div class="diagonal_strip">
+                      <img src="assets/images/strip_1.svg" alt="" srcset="">
+                      <div class="strip_content">
+                        <div class="content_itself">
+                          <img src="assets/images/elephant.svg" alt="" srcset="">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="columns_wrapper">
+                    <div class="swiper our-services">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <div class="card_wrapper">
+                            <img src="assets/images/three-carousel/slide-1.png" class="hero" alt="">
+                            <h3 class="heading">Strategy - The Endgame</h3>
+                            <p>We pride ourselves on Strategic Brilliance. Just as a chess grandmaster analyzes the opponent's moves, we delve deep into market dynamics, understanding your competitors and foreseeing trends.</p>
+                            <!-- <p> Our team of strategic masterminds is dedicated to positioning your brand strategically, ensuring it not only stands out but dominates the board. Here strategy meets creativity, and victory is not just a possibility but a certainty. Your Brand's Triumph, your brand's success is our endgame</p> -->
+                            <p class="date">SEPTEMBER 28, 2023</p>
+                            <a href="" class="cta">READ MORE<span><img src="assets/images/arrow.svg" alt=""
+                                  srcset=""></span></a>
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div class="card_wrapper">
+                            <img src="assets/images/three-carousel/slide-2.png" class="hero" alt="">
+                            <h3 class="heading">Branding - The Grandmaster Stroke</h3>
+                            <p>At TAD Global from the opening gambit to the checkmate, we craft narratives that resonate, visuals that captivate, and strategies that outwit the competition.</p>
+                            <p class="date">SEPTEMBER 28, 2023</p>
+                            <a href="" class="cta">READ MORE<span><img src="assets/images/arrow.svg" alt=""
+                                  srcset=""></span></a>
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div class="card_wrapper">
+                            <img src="assets/images/three-carousel/slide-3.png" class="hero" alt="">
+                            <h3 class="heading">Digital - The Digital Chessboard</h3>
+                            <p>From content creation to online advertising, our moves are not just about visibility; they're about dominating the board, ensuring your brand is positioned as a leader in the digital realm.</p>
+                            <p class="date">SEPTEMBER 28, 2023</p>
+                            <a href="" class="cta">READ MORE<span><img src="assets/images/arrow.svg" alt=""
+                                  srcset=""></span></a>
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div class="card_wrapper">
+                            <img src="assets/images/three-carousel/slide-1.png" class="hero" alt="">
+                            <h3 class="heading">Production - TAD Flix - The Mood Board, Slay The Play</h3>
+                            <p>Production is a meticulously orchestrated game. It isn't just about creating content; it's about executing a masterful strategy, much like a carefully orchestrated chess game. our studio as a chessboard, where creativity takes center stage.</p>
+                            <p class="date">SEPTEMBER 28, 2023</p>
+                            <a href="" class="cta">READ MORE<span><img src="assets/images/arrow.svg" alt=""
+                                  srcset=""></span></a>
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div class="card_wrapper">
+                            <img src="assets/images/three-carousel/slide-2.png" class="hero" alt="">
+                            <h3 class="heading">Media and PR - TAD Crow - The Paparazzi Noise</h3>
+                            <p>With the shift in consumption habits and dynamics of media and mediums one of the key challenges is how to reach the right TG and not just make noise.</p>
+                            <p class="date">SEPTEMBER 28, 2023</p>
+                            <a href="" class="cta">READ MORE<span><img src="assets/images/arrow.svg" alt=""
+                                  srcset=""></span></a>
+                          </div>
+                        </div>                        
+                      </div>
+                      <div class="progress_bar_wrapper">
+                        <div class="swiper-counter">
+                          <p class="heading">OUR SERVICES</p>
+                          <div class="right"><span class="current">1</span> / <span class="total">0</span></div>
+                        </div>
+                        <div class="swiper-progress-bar">
+                          <div class="progress"></div>
+                          <div class="progress-sections"></div>
+                        </div>
+
+                        <div class="console"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+
+    <footer>
+      <div class="container_fluid">
+        <div class="row mx-0">
+          <div class="col-lg-3 d-flex align-items-center justify-content-center">
+            <div class="left">
+              <img src="assets/images/tad-logo.svg" alt="" srcset="">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="middle">
+              <h3>GET IN TOUCH</h3>
+              <div class="contact_us_wrapper">
+                <div class="contact">
+                  <p>CONTACT US</p>
+                </div>
+                <div class="cta">
+                  <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="#ffffff"
+                      class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd"
+                        d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <ul>
+                <li><a href="#">BRAND</a></li>
+                <li><a href="#">DIGITAL</a></li>
+                <li><a href="#">MEDIA</a></li>
+                <li><a href="#">PRODUCTION</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </main>
+  </div>
+
+
+
+
+  <script src="assets/js/bootstrap-js/bootstrap.min.js"></script>
+  <script src="assets/js/jquery.js"></script>
+  <script src="assets/js/swiper-bundle.min.js"></script>
+  <script src="assets/js/fancybox.min.js"></script>
+  <script src="assets/js/gsap.min.js"></script>
+  <script src="assets/js/ScrollTrigger.min.js"></script>
+  <script src="assets/js/TweenMax.min.js"></script>
+  <script src="assets/js/secret-script.js"></script>
+  <script src="assets/js/script.js"></script>
+  <script>
+    gsap.registerPlugin(ScrollTrigger);
+
+
+
+    gsap.to(".")
+  </script>
+</body>
+
+</html>
